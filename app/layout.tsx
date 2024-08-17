@@ -11,7 +11,7 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "YOOM",
+  title: "TeamStream",
   description: "Video calling App",
   icons: {
     icon: "/icons/logo.svg",
@@ -26,8 +26,7 @@ export default function RootLayout({
       <ClerkProvider
         appearance={{
           layout: {
-            socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/yoom-logo.svg",
+            logoImageUrl: "/icons/logo.svg",
           },
           variables: {
             colorText: "#fff",
